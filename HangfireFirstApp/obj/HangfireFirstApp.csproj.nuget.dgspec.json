@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\learning\\Hangfire\\hangfireFirstApp\\HangfireFirstApp\\HangfireFirstApp.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\learning\\Hangfire\\hangfireFirstApp\\HangfireFirstApp\\HangfireFirstApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\learning\\Hangfire\\hangfireFirstApp\\HangfireFirstApp\\HangfireFirstApp.csproj",
+        "projectName": "HangfireFirstApp",
+        "projectPath": "C:\\dev\\learning\\Hangfire\\hangfireFirstApp\\HangfireFirstApp\\HangfireFirstApp.csproj",
+        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\learning\\Hangfire\\hangfireFirstApp\\HangfireFirstApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.equipeblue.com.br/api/v4/groups/238/-/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.12, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.12, )"
+            },
+            "Hangfire.RecurringJobAdmin": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Hangfire.Storage.SQLite": {
+              "target": "Package",
+              "version": "[0.4.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
